@@ -1,0 +1,22 @@
+{
+  "interval_seconds": 60,
+  "urls": [
+    {
+      "url": "https://www.linkedin.com",
+      "label": "LinkedIn Homepage"
+    },
+    {
+      "url": "https://github.com",
+      "label": "GitHub"
+    },
+    {
+      "url": "https://httpstat.us/200",
+      "label": "Always 200"
+    },
+    {
+      "url": "https://httpstat.us/500",
+      "label": "Always 500",
+      "interval_seconds": 120
+    }
+  ]
+}
