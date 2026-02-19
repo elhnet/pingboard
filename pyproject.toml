@@ -1,0 +1,15 @@
+[project]
+name = "pingboard"
+version = "0.1.0"
+description = "URL status monitoring dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "httpx",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
